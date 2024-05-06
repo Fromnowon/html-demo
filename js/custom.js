@@ -4,11 +4,12 @@
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets    
 });
-window.onbeforeunload = function(){
-          //刷新后页面自动回到顶部
-        document.documentElement.scrollTop = 0;  //ie下
-        document.body.scrollTop = 0;  //非ie
- }
+
+// window.onbeforeunload = function(){
+//   //刷新后页面自动回到顶部
+// document.documentElement.scrollTop = 0;  //ie下
+// document.body.scrollTop = 0;  //非ie
+// }
 
 /* Mobile Navigation
     -----------------------------------------------*/
@@ -59,10 +60,9 @@ $(document).ready(function() {
   -----------------------------------------------*/
   $(document).ready(function() {
     $("#owl-speakers").owlCarousel({
-      navigation:true,
       dots: true,
       autoPlay: false,
-      items : 4,
+      items : 6,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
       itemsTablet: [768,1],

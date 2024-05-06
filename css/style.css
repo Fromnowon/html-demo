@@ -49,7 +49,10 @@ p {
     font-size: 14px;
     line-height: 24px;
 }
-
+#faq p{
+  font-size: 16px;
+    line-height: 26px;
+}
 a {
   text-decoration: none !important;
   outline: none;
@@ -262,7 +265,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/intro-bg2.png') 40% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -420,7 +423,7 @@ footer {
     Regsiter section              
 -----------------------------------------*/
 #register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/reg-bg.png') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -526,11 +529,12 @@ footer {
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/venue-bg.png') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    color: white;
 }
 
 #venue p {
